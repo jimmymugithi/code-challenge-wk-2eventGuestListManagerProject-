@@ -11,12 +11,20 @@
 
     <form id="guest-form">
       <input type="text" id="guest-name" placeholder="Enter guest name" required>
+      
+      <select id="guest-category" required>
+        <option value="">Select category</option>
+        <option value="Friend">Friend</option>
+        <option value="Family">Family</option>
+        <option value="Colleague">Colleague</option>
+      </select>
+
       <button type="submit">Add Guest</button>
     </form>
 
     <ul id="guest-list"></ul>
   </div>
 
-  <script src="src/index.js"></script>
+  <script src="index.js"></script>
 </body>
 </html>
